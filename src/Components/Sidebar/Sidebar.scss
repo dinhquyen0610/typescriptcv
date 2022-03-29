@@ -1,0 +1,31 @@
+.sidebar{
+    padding: 20px;
+    min-width: 260px;
+    background-image: url(https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png);
+    border-radius: 4px;
+    height: 450px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    user-select:none;
+    &__header{
+        margin-bottom: 20px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    &_img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        display: block;
+        margin: 0 auto;
+       
+    }
+    &__information{ 
+        max-width: 248px;
+        margin: 20px auto 0px;
+        &-item{
+            margin-bottom: 10px;
+        }
+    }
+
+}
+

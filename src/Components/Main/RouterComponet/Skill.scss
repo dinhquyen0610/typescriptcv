@@ -1,0 +1,12 @@
+.skill{
+  &_wrap{
+    width: 100%;
+    background-color: #ddd;
+  }
+  &_item{
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
+}
